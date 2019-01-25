@@ -73,3 +73,23 @@ body {
   font-weight: 700;
   letter-spacing: 17.4px;
 }
+
+/* ANIMATIONS */
+/* Browsers are optimized for the opacity and transform properties  */
+
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+
+  }
+
+  80% {
+
+
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
