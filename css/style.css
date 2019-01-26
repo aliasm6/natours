@@ -20,7 +20,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7; /*1.7 times the default*/
-  color: #777;
+  color: #555;
   padding: 30px;
 }
 
@@ -50,9 +50,10 @@ body {
 
 .text-box {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%) /* half of the width to the left half of the width to the top */
+  transform: translate(-50%, -50%); /* half of the width to the left half of the width to the top */
+  text-align: center;
 }
 
 .heading-primary {
@@ -118,4 +119,17 @@ body {
     opacity: 1;
     transform: translate(0);
   }
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #555;
 }
