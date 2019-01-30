@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+/* setting font size here allows for REM to be used throughout project */
+html {
+  font-size: 62.5%; // changes default 16px to 10px defines 1rem 
+}
+
+body {
+  box-sizing: border-box;
+}
