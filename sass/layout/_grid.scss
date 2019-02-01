@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width;
-  background-color: #eee;
   margin: 0 auto;
 
   //applies to everything except the last child
@@ -9,13 +8,12 @@
   }
   @include clearfix;
   //attribute selector ^= means selects all classes that start with the string specified
-  // ^= starts width
+  // ^= starts with
   // *= contains
   // $= ends with
   [class^="col-"] {
-    background-color: orangered;
-    float: left;
 
+    float: left;
     &:not(:last-child){
       margin-right: $gutter-horizontal;
     }
