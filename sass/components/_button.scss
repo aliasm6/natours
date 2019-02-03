@@ -9,7 +9,7 @@
     display: inline-block;
     border-radius: 10rem;
     transition: all .2s; /* transition property must be applied on initial state */
-    backface-visibility: hidden;
+    // backface-visibility: hidden;
     position: relative;
     font-size: $default-font-size;
   }
