@@ -1,4 +1,6 @@
 .card {
+
+  //FUNCTIONALITY
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
@@ -37,5 +39,25 @@
   }
   &:hover &__side--back{
     transform: rotateY(0);
+  }
+  //FRONT SIDE STYLING
+  &__picture {
+    background-size: cover;
+    height: 23rem; 
+
+    &--1 {
+      //ASSUME THIS WILL BE COMPILED INTO CSS FILE SO WRITE ROUTES ACCORDINGLY
+      background-image: url(../img/nat-5.jpg);
+    }
+
+    &--2 {
+      //ASSUME THIS WILL BE COMPILED INTO CSS FILE SO WRITE ROUTES ACCORDINGLY
+      background-image: url(../img/nat-5.img);
+    }
+
+    &--3 {
+      //ASSUME THIS WILL BE COMPILED INTO CSS FILE SO WRITE ROUTES ACCORDINGLY
+      background-image: url(../img/nat-5.img);
+    }
   }
 }
